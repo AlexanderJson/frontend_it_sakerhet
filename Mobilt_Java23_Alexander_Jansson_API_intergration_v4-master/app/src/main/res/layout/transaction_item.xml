@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@color/background_layer_2"
+    android:elevation="4dp"
+    android:layout_margin="8dp"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+    <TextView
+        android:id="@+id/date_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/transaction_date"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/font_color_inactive"
+        />
+
+
+        <TextView
+            android:id="@+id/message_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/message"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/font_color_active"
+            />
+
+
+
+</LinearLayout>
+</LinearLayout>

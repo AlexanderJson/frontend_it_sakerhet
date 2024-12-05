@@ -31,9 +31,6 @@
         </activity>
 
 
-        <activity android:name="com.example.timecapsuleApp.Users.activity.ProfileActivity"
-            android:exported="true">
-    </activity>
 
 
 </application>

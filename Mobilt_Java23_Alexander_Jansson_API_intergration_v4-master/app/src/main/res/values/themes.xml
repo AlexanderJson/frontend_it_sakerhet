@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.BankApp" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.Timecapsule" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
         <item name="materialButtonStyle">@style/button_style</item>
@@ -35,5 +35,5 @@
     </style>
 
 
-    <style name="Theme.BankApp" parent="Base.Theme.BankApp" />
+    <style name="Theme.BankApp" parent="Base.Theme.Timecapsule" />
 </resources>

@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.bankapp"
+    namespace = "com.example.timecapsuleApp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.bankapp"
+        applicationId = "com.example.timecapsuleApp"
         minSdk = 25
         targetSdk = 34
         versionCode = 1
